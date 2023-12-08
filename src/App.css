@@ -1,0 +1,27 @@
+.container-fluid {
+  height: 100vh;
+  background-image: url("./assets/images/background-pattern-desktop.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: var(--light-pink);
+}
+.display-2 {
+  color: var(--dark-purple);
+  font-weight: 700;
+}
+li.list-group-item {
+  color: var(--dark-purple);
+  font-weight: 700;
+  cursor: pointer;
+}
+li.list-group-item:hover {
+  color: magenta;
+}
+li.item-active {
+  color: magenta;
+}
+p.paragraph {
+  color: var(--grayish-purple);
+  margin: 0;
+  margin-top: 20px;
+}
