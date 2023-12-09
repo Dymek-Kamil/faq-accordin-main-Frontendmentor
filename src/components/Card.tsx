@@ -3,8 +3,6 @@ import { Image } from "react-bootstrap";
 import iconStar from "../assets/images/icon-star.svg";
 import ListGroupComponent from "./ListGroup";
 import "../App.css";
-import Paragraph from "./Paragraph";
-import { useState } from "react";
 
 const CardComponent = () => {
   const listItems = [
@@ -13,7 +11,6 @@ const CardComponent = () => {
     "Can I use Frontend Mentor projects in my portfolio?",
     "How can I get help if I'm stuck on a challenge?",
   ];
-  const paragraphItems = ["one", "two", "three", "four"];
 
   return (
     <>

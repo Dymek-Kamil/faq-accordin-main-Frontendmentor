@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./App.css";
 import Container from "react-bootstrap/esm/Container";
 import CardComponent from "./components/Card";
